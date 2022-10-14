@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFBBD"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/app_slogan"
+        android:layout_alignEnd="@+id/app_slogan"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="29dp"
+        android:text="ekart"
+        android:textAlignment="center"
+        android:textColor="#7FB069"
+        android:textSize="45dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/app_name"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="70dp"
+        android:text="Welcomes you!"
+        android:textSize="25dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/app_slogan"
+        android:layout_width="243dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="209dp"
+
+        android:layout_marginRight="70dp"
+        android:text="Get 100% pure natural products directly from producers.
+"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/main_login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="20dp"
+        android:background="#E6AA68"
+        android:padding="15dp"
+        android:text="Already have an Account? Login"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="13sp" />
+
+    <Button
+        android:id="@+id/main_join_now_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/main_login_btn"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="5dp"
+        android:background="#7FB069"
+        android:padding="10dp"
+        android:text="New User"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+</RelativeLayout>
